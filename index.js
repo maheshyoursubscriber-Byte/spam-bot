@@ -4,7 +4,7 @@ import fetch from "node-fetch"
 const app = express()
 app.use(express.json())
 
-const TOKEN = "BOT_TOKEN"
+const TOKEN = "8059445902:AAHckzqbSAbrwjMMGSKOQeFFvdwRMqkMH0k"
 const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`
 const ADMIN_ID = "" // set admin id like "1234567890" or leave blank
 
